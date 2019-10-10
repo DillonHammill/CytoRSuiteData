@@ -1,3 +1,100 @@
+DataVersion: 0.1.54
+=======================
+* Changed: Activation
+* Changed: Compensation
+
+
+DataVersion: 0.1.53
+=======================
+* Changed: Compensation
+Keep Activation as flowSet to prevent ncdf file accessibility issues.
+
+DataVersion: 0.1.52
+=======================
+* Changed: Compensation
+Update Activation files to remove old filenames.
+
+DataVersion: 0.1.51
+=======================
+* Changed: Compensation
+Automatically correct file order using gtools mixedsort.
+
+DataVersion: 0.1.50
+=======================
+CytoExploreR name changes.
+
+DataVersion: 0.1.49
+=======================
+* Changed: Activation
+* Changed: Compensation
+Update Compensation gatingTemplate.
+
+DataVersion: 0.1.48
+=======================
+* Changed: Activation
+* Changed: Compensation
+Update Activation gatingTemplate.
+
+DataVersion: 0.1.47
+=======================
+* Changed: Compensation
+Correct experiment details in Activation.
+
+DataVersion: 0.1.46
+=======================
+* Changed: Activation
+* Changed: Compensation
+
+
+DataVersion: 0.1.45
+=======================
+* Changed: Compensation
+Add unstained control to Activation and update gatingTemplates.
+
+DataVersion: 0.1.44
+=======================
+* Changed: Compensation
+Fix order in Activation and add experiment details.
+
+DataVersion: 0.1.43
+=======================
+* Changed: Compensation
+Activation file name changes.
+
+DataVersion: 0.1.42
+=======================
+* Changed: Activation
+* Changed: Compensation
+
+
+DataVersion: 0.1.41
+=======================
+* Changed: Activation
+* Changed: Compensation
+
+
+DataVersion: 0.1.40
+=======================
+* Changed: Activation
+* Changed: Compensation
+Update compensation dataset and gatingTemplate.
+
+DataVersion: 0.1.39
+=======================
+* Changed: Activation
+* Changed: Compensation
+
+
+DataVersion: 0.1.38
+=======================
+* Changed: Activation
+* Changed: Compensation
+Updsate documentation for Activation dataset
+
+DataVersion: 0.1.37
+=======================
+Update CytoRSuiteData to include more Activation files and experiment details.
+
 DataVersion: 0.1.36
 =======================
 Name change to Compensation-Channels.csv

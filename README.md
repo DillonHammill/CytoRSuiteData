@@ -1,2 +1,2 @@
-# CytoExploreRData
-Flow cytometry data for use in CytoExploreR.
+# CytoRSuiteData
+Flow cytometry data for use in CytoRSuite.

@@ -40,5 +40,14 @@ markernames(Activation) <- markers
 pData(Activation)$OVAConc <- c(rep(c(0,0,0.005,0.005,0.05,0.05,0.5,0.5),4),0)
 pData(Activation)$Treatment <- c(rep("Stim-A", 8),rep("Stim-B",8),rep("Stim-C",8),rep("Stim-D",8),"NA")
 pData(Activation)$Treatment <- factor(pData(Activation)$Treatment, levels = c("Stim-A","Stim-B","Stim-C","Stim-D","NA"))
+
+# Spillover Matrix
+spill <- read.csv(paste0(DataPackageR::project_extdata_path(),"/","Compensation-Spillover-Matrix.csv"), header = TRUE, row.names = 1)
+colnames(spill) <- rownames(spill)
+spill <- as.matrix(spill)
+rownames(spill) <- NULL
+lapply(seq_along(Activation), function(x){
+  Activation[[x]]@description$SPILL <<- spill
+})
 ```
 
